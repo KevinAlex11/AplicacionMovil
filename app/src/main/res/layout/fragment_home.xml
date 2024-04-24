@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="646dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblInicio"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="Factory Clean"
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="153dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="#0000BCD4"
+                android:src="@drawable/icono" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/lblInformacion"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#0000008B"
+                android:gravity="center"
+                android:text="Informacion del Negocio: "
+                android:textColor="#00008B"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txtInformacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="FACTORY CLEAN lleva más de 8 años en el área de lavado, siendo un negocio pequeño pero con mucho trabajo y experiencia, misma que los pone en muy buen estatus, ya que gracias a sus grandes labores tienen muy buenas recomendaciones y los clientes salen muy conformes por los resultados de los mismos.    "
+                android:textSize="24sp" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/lblContacto"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="Contacto"
+                android:textColor="#00008B"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/face" />
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtContacto"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:gravity="center|fill_horizontal"
+                        android:text=" Factory Clean"
+                        android:textSize="24sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="69dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/what"
+                    app:srcCompat="@drawable/what" />
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtContacto1"
+                        android:layout_width="match_parent"
+                        android:layout_height="66dp"
+                        android:gravity="center|fill_horizontal"
+                        android:text="3322266835"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/lblImagenes"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="Imagenes del negocio"
+                android:textColor="#FF0000"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@drawable/auto_empresa" />
+
+            <TextView
+                android:id="@+id/lblAuto"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="#FF0000"
+                android:textSize="18sp"
+                android:text="Limpieza de automovil" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:src="@drawable/sillon_empresa" />
+
+            <TextView
+                android:id="@+id/lvlSillon"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="#FF0000"
+                android:textSize="18sp"
+                android:text="Limpieza de sillon" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:src="@drawable/colchon_empresa" />
+
+            <TextView
+                android:id="@+id/lblColchon"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="#FF0000"
+                android:textSize="18sp"
+                android:text="Limpieza de colchon" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

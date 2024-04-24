@@ -1,0 +1,179 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ClientePedColchon">
+
+    <TextView
+        android:id="@+id/lblPedcolchon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Colchon"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <ImageView
+        android:id="@+id/btnRegColchon"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/ListaAutos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285"
+        app:srcCompat="@drawable/regresar" />
+
+    <Button
+        android:id="@+id/btnPedColchonRegistrar"
+        android:layout_width="180dp"
+        android:layout_height="54dp"
+        android:text="Realizar pedido"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+    android:id="@+id/ListaAutos"
+    android:layout_width="395dp"
+    android:layout_height="578dp"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/lblPedcolchon"
+    app:layout_constraintVertical_bias="0.050000012">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/lblPC1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Domicilio"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtPedColchonDomicilio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/lblPC2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numero Domicilio"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtPedColchonNumDomicilio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/lblPC3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Colonia"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtPedColchonColonia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/lblPC4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Municipio"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtPedColchonMunicipio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/lblPC5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha Lavada"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtPedColchonFechaLav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/lblPC6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hora Lavada"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtPedColchonHoraLav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/lblPC7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tamaño De Colchon"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtPedColchonTamano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/lblPC8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marca Del Colchon"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtPedColchonMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

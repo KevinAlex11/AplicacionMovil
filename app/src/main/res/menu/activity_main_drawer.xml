@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/Cliente"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/pedido_Cliente"
+            android:icon="@drawable/pedidocli"
+            android:title="Realizar pedido de lavada" />
+        <item
+            android:id="@+id/lavadas_Cliente"
+            android:icon="@drawable/lavadasc"
+            android:title="Mis lavadas" />
+        <item
+            android:id="@+id/sugerencia_Cliente"
+            android:icon="@drawable/mensaje"
+            android:title="Sugerencias" />
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/pendiente"
+            android:title="Pedidos pendientes" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/terminado"
+            android:title="Pedidos terminados" />
+        <item
+            android:id="@+id/sugerFragment"
+            android:icon="@drawable/mensaje"
+            android:title="Sugerencias clientes" />
+        <item
+            android:id="@+id/precio_Lavadas"
+            android:icon="@drawable/precio"
+            android:title="Precios lavadas" />
+        <item
+            android:id="@+id/login"
+            android:icon="@android:drawable/ic_delete"
+            android:title="Cerrar sesion" />
+
+
+    </group>
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.factoryclean.ui.home.HomeFragment"
+        android:label="Pedidos pendiantes"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.factoryclean.ui.gallery.GalleryFragment"
+        android:label="Pedidos terminados"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.factoryclean.ui.slideshow.SlideshowFragment"
+        android:label="Informacion Clientes"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/sugerFragment"
+        android:name="com.example.factoryclean.SugerFragment"
+        android:label="Sugerencias"
+        tools:layout="@layout/fragment_suger" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.factoryclean.MainActivity"
+        android:label="app_bar_main"
+        tools:layout="@layout/app_bar_main" />
+    <activity
+        android:id="@+id/login"
+        android:name="com.example.factoryclean.Login"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/pedido_Cliente"
+        android:name="com.example.factoryclean.Pedido_Cliente"
+        android:label="activity_pedido__cliente"
+        tools:layout="@layout/activity_pedido__cliente" />
+    <activity
+        android:id="@+id/lavadas_Cliente"
+        android:name="com.example.factoryclean.Lavadas_Cliente"
+        android:label="activity_lavadas__cliente"
+        tools:layout="@layout/activity_lavadas__cliente" />
+    <activity
+        android:id="@+id/sugerencia_Cliente"
+        android:name="com.example.factoryclean.Sugerencia_Cliente"
+        android:label="activity_sugerencia__cliente"
+        tools:layout="@layout/activity_sugerencia__cliente" />
+    <activity
+        android:id="@+id/informacion_Negocio"
+        android:name="com.example.factoryclean.Informacion_Negocio"
+        android:label="activity_informacion__negocio"
+        tools:layout="@layout/activity_informacion__negocio" />
+    <activity
+        android:id="@+id/precio_Lavadas"
+        android:name="com.example.factoryclean.Precio_Lavadas"
+        android:label="activity_precio__lavadas"
+        tools:layout="@layout/activity_precio__lavadas" />
+
+
+</navigation>

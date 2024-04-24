@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.factoryclean">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icono"
+        android:label="Who Clean?"
+        android:roundIcon="@mipmap/icono"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".SugerenciaN" />
+        <activity android:name=".Info_Lavadas" />
+        <activity android:name=".LavIncompletasAuto" />
+        <activity android:name=".LavRealizadasAuto" />
+        <activity android:name=".TipoTelaSillon" />
+        <activity android:name=".TipoSillon" />
+        <activity android:name=".RealizarClientePedAuto" />
+        <activity android:name=".TipoAuto" />
+        <activity android:name=".ClientePedSillon" />
+        <activity android:name=".ClientePedColchon" />
+        <activity android:name=".ClientePedAuto" />
+        <activity android:name=".Precio_Lavadas" />
+        <activity android:name=".Informacion_Negocio" />
+        <activity android:name=".Sugerencia_Cliente" />
+        <activity android:name=".Lavadas_Cliente" />
+        <activity android:name=".Pedido_Cliente" />
+        <activity android:name=".ContraNueva" />
+        <activity
+            android:name=".RecuperaContra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Registro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Who Clean?"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission-sdk-23 android:name="android.permission.UPDATE_DEVICE_STATS" />
+
+    <uses-sdk android:targetSdkVersion="30" />
+
+</manifest>

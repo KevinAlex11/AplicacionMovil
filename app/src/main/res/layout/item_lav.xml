@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03">
+
+        <TextView
+            android:id="@+id/lblauto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Autos"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/lblDom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Domicilio"
+            android:textSize="25dp"
+            android:textColor="#00008B" />
+
+        <TextView
+            android:id="@+id/txtDomicilio"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/lblNumDom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:text="Numero Domicilio"
+            android:textColor="#00008B" />
+
+        <TextView
+            android:id="@+id/txtNumDom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/lblColonia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:textColor="#00008B"
+            android:text="Colonia" />
+
+        <TextView
+            android:id="@+id/txtColonia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/lblMunicipio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#00008B"
+            android:textSize="25dp"
+            android:text="Municipio" />
+
+        <TextView
+            android:id="@+id/txtMunicipio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/lblFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#00008B"
+            android:textSize="25dp"
+            android:text="Fecha" />
+
+        <TextView
+            android:id="@+id/txtfecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/lblHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#00008B"
+            android:textSize="25dp"
+            android:text="Hora" />
+
+        <TextView
+            android:id="@+id/txtHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/lblTipoA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#00008B"
+            android:textSize="25dp"
+            android:text="Tipo Auto" />
+
+        <TextView
+            android:id="@+id/txtTipoA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/lblMarcaA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#00008B"
+            android:text="Marca Auto"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/txtMarcaA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/lblModeloA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#00008B"
+            android:text="Modelo Auto"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/txtModeloA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/lblTipoTela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#00008B"
+            android:text="Tipo Tela Asientos"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/txtTipoTela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
